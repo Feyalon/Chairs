@@ -1,0 +1,1392 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  height: 200px;
+  width: 100%;
+}
+.header .header-top-component .header-top-component-navbar {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  justify-content: center;
+  background-color: #E5E5E5;
+}
+.header .header-top-component .header-top-component-navbar .header-top-component-nav-content {
+  font-size: 13px;
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.header .header-top-component .header-top-component-navbar .header-top-component-nav-content .header-top-component-content {
+  flex: 1;
+}
+.header .header-top-component .header-top-component-navbar .header-top-component-nav-content .header-top-component-content a {
+  text-decoration: none;
+  color: #333333;
+}
+.header .header-top-component .header-top-component-navbar .header-top-component-nav-content .header-top-component-content a:hover {
+  text-decoration: underline;
+}
+.header .header-sub-component {
+  display: flex;
+  flex-direction: column;
+  height: 149px;
+}
+.header .header-sub-component .header-sub-component-top-content {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20%;
+  padding-top: 10px;
+}
+.header .header-sub-component .header-sub-component-top-content .header-sub-component-information {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 400px;
+}
+.header .header-sub-component .header-sub-component-top-content .header-sub-component-information .header-sub-component-button {
+  margin-left: 25px;
+  background: white;
+  border: 3px solid #66C05D;
+  width: 170px;
+  height: 40px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+.header .header-sub-component .header-sub-component-top-content .header-sub-component-information .header-sub-component-number p {
+  font-weight: 400;
+  font-size: 16px;
+}
+.header .header-sub-component .header-sub-component-top-content .logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #66C05D;
+  font-weight: 700;
+}
+.header .header-sub-component .header-sub-component-top-content .logo span {
+  margin-left: 15px;
+}
+.header .header-sub-component .header-sub-component-footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+.header .header-sub-component .header-sub-component-footer-content .header-sub-component-footer-menu {
+  display: flex;
+  list-style-type: none;
+}
+.header .header-sub-component .header-sub-component-footer-content .header-sub-component-footer-menu li {
+  margin-left: 20px;
+}
+.header .header-sub-component .header-sub-component-footer-content .header-sub-component-footer-menu li a {
+  text-decoration: none;
+  color: black;
+}
+.header .header-sub-component .header-sub-component-footer-content .header-sub-component-footer-menu li a:hover {
+  text-decoration: underline;
+}
+
+.main {
+  background-color: #E5E5E5;
+}
+
+.main-carousel-component {
+  width: 100%;
+  height: 604px;
+  background-image: url("./assets/bg_landing.png");
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.main-carousel-component p {
+  color: white;
+}
+.main-carousel-component .main-carousel-component-content {
+  width: 300px;
+  margin-left: 405px;
+}
+.main-carousel-component .main-carousel-component-content p {
+  margin-top: 50px;
+}
+.main-carousel-component .main-carousel-component-content .main-carousel-button {
+  margin-top: 62px;
+  background: none;
+  border: 2px solid white;
+  color: white;
+  width: 170px;
+  height: 40px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+.main-carousel-component .main-carousel-component-content .main-carousel-landing-text {
+  font-size: 48px;
+  font-weight: 700;
+}
+.main-carousel-component .main-carousel-component-content .main-carousel-text {
+  font-size: 14px;
+}
+
+.main-cards-component {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-cards-component .main-cards-content .main-header-card {
+  margin-left: 20px;
+  font-size: 24px;
+  font-weight: 700;
+}
+.main-cards-component .main-cards-content .menu-cards {
+  display: flex;
+}
+.main-cards-component .main-cards-content .card {
+  margin-top: 40px;
+  width: 255px;
+  height: 363px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 14px;
+  background-color: white;
+  margin-left: 20px;
+}
+.main-cards-component .main-cards-content .card .image-card {
+  margin-top: 20px;
+}
+.main-cards-component .main-cards-content .card .card-description {
+  width: 190px;
+}
+.main-cards-component .main-cards-content .card .card-price {
+  margin-top: 20px;
+  font-size: 21px;
+  font-weight: 500;
+}
+.main-cards-component .main-cards-content .card .card-order {
+  margin-top: 20px;
+  background: white;
+  width: 130px;
+  height: 35px;
+  border: none;
+  background: #66C05D;
+  border-radius: 30px;
+}
+
+.main-contact {
+  width: 100%;
+  height: 444px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.main-contact .main-contact-gmail {
+  width: 530px;
+  height: 212px;
+  background-color: #66C05D;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.main-contact .main-contact-gmail .main-contact-gmail-image {
+  margin-left: 100px;
+}
+.main-contact .main-contact-gmail .main-contact-gmail-content {
+  width: 250px;
+}
+.main-contact .main-contact-gmail .main-contact-gmail-content .gmail-header p {
+  font-weight: 700;
+  font-size: 18px;
+}
+.main-contact .main-contact-gmail .main-contact-gmail-content .gmail-description {
+  width: 230px;
+  font-size: 14px;
+  margin-top: 25px;
+}
+.main-contact .main-contact-gmail .main-contact-gmail-content .gmail-input {
+  margin-top: 35px;
+}
+.main-contact .main-contact-gmail .main-contact-gmail-content .gmail-input input {
+  outline: none;
+  border: none;
+  width: 225px;
+  height: 35px;
+  background: white;
+  border-radius: 30px;
+}
+.main-contact .main-contact-gmail .main-contact-gmail-content .gmail-input input::-moz-placeholder {
+  padding-left: 10px;
+}
+.main-contact .main-contact-gmail .main-contact-gmail-content .gmail-input input:-ms-input-placeholder {
+  padding-left: 10px;
+}
+.main-contact .main-contact-gmail .main-contact-gmail-content .gmail-input input::placeholder {
+  padding-left: 10px;
+}
+.main-contact .main-contact-map {
+  width: 520px;
+  height: 212px;
+  background-color: #66C05D;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.main-contact .main-contact-map .main-contact-map-content {
+  margin-left: 40px;
+  width: 170px;
+}
+.main-contact .main-contact-map .main-contact-map-content .map-header {
+  font-size: 18px;
+  font-weight: 700;
+}
+.main-contact .main-contact-map .main-contact-map-content .map-description {
+  margin-top: 25px;
+}
+.main-contact .main-contact-map .main-contact-map-content .map-button {
+  margin-top: 25px;
+}
+.main-contact .main-contact-map .main-contact-map-content .map-button button {
+  width: 170px;
+  height: 35px;
+  background: none;
+  color: white;
+  border: 2px solid white;
+  border-radius: 35px;
+  cursor: pointer;
+}
+
+.footer {
+  height: 184px;
+  width: 100%;
+}
+.footer .footer-top-component {
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.footer .footer-top-component .footer-icons {
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.footer .footer-top-component .footer-icons .eclipse {
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer .footer-top-component .footer-icons .eclipse1 {
+  background: url("./assets/Ellipse1.svg");
+}
+.footer .footer-top-component .footer-icons .eclipse2 {
+  background: url("./assets/Ellipse2.svg");
+  margin-left: 28px;
+}
+.footer .footer-top-component .footer-icons .eclipse3 {
+  background: url("./assets/Ellipse3.svg");
+  margin-left: 28px;
+}
+.footer .footer-top-component .footer-icons .eclipse4 {
+  background: url("./assets/icon4.svg");
+  margin-left: 28px;
+}
+.footer .footer-top-component .footer-addres {
+  margin-left: 220px;
+}
+.footer .footer-top-component .footer-contact {
+  margin-left: 200px;
+  display: flex;
+  align-items: center;
+}
+.footer .footer-top-component .footer-contact button {
+  margin-left: 70px;
+  width: 117px;
+  height: 40px;
+  border: 2px solid #66C05D;
+  color: #66C05D;
+  background: none;
+  border-radius: 40px;
+  cursor: pointer;
+}
+.footer .footer-low-component {
+  height: 64px;
+  background-color: #E5E5E5;
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+  justify-content: center;
+  color: #828282;
+}
+.footer .footer-low-component .footer-copyright {
+  margin-left: 345px;
+}
+
+.fullPageMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  transition: 0.5s;
+  display: none;
+}
+
+.fullPageMenu.active {
+  top: -100%;
+}
+
+.fullPageMenu .nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.fullPageMenu .nav ul {
+  position: relative;
+}
+
+.fullPageMenu .nav ul li {
+  position: relative;
+  list-style: none;
+  padding: 0 20px;
+  margin: 5px 0;
+  overflow: hidden;
+  display: table;
+}
+
+.fullPageMenu .nav ul li:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ff0047;
+  transition: transform 0.5s ease-in-out;
+  transform: scaleY(0);
+  transform-origin: bottom;
+}
+
+.fullPageMenu .nav ul li:hover:before {
+  transition: transform 0.5s ease-in-out;
+  transform: scaleY(1);
+  transform-origin: top;
+}
+
+.fullPageMenu .nav ul li a {
+  position: relative;
+  color: green;
+  text-decoration: none;
+  font-size: 4em;
+  font-weight: 700;
+  line-height: 1em;
+  display: inline-block;
+  text-transform: uppercase;
+  transition: 0.5s ease-in-out;
+}
+
+.fullPageMenu .nav ul li a::before {
+  content: attr(data-text);
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  color: #fff;
+}
+
+.fullPageMenu .nav ul li:hover a {
+  transform: translateY(-100%);
+  color: #fff;
+}
+
+.menuicon {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background: url(https://i.postimg.cc/k4rb3zpp/pngwave.png);
+  background-size: 40px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: 10px;
+  display: none;
+}
+
+.menuicon.active {
+  background: url(https://i.postimg.cc/25t1dMY5/pngegg-1.png);
+  background-size: 40px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .header {
+    height: 200px;
+    width: 100%;
+  }
+  .header .header-top-component .header-top-component-navbar {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    justify-content: flex-start;
+    background-color: #E5E5E5;
+  }
+  .header .header-top-component .header-top-component-navbar .header-top-component-nav-content {
+    font-size: 16px;
+    margin-left: 30px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+  .header .header-top-component .header-top-component-navbar .header-top-component-nav-content .header-top-component-content {
+    flex: 1;
+  }
+  .header .header-top-component .header-top-component-navbar .header-top-component-nav-content .header-top-component-content a {
+    text-decoration: none;
+    color: #333333;
+  }
+  .header .header-top-component .header-top-component-navbar .header-top-component-nav-content .header-top-component-content a:hover {
+    text-decoration: underline;
+  }
+  .header .header-sub-component {
+    display: flex;
+    flex-direction: column;
+    height: 149px;
+  }
+  .header .header-sub-component .header-sub-component-top-content {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    padding-top: 5px;
+  }
+  .header .header-sub-component .header-sub-component-top-content .header-sub-component-information {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+  }
+  .header .header-sub-component .header-sub-component-top-content .header-sub-component-information .header-sub-component-button {
+    margin-left: 25px;
+    background: white;
+    border: 3px solid #66C05D;
+    width: 170px;
+    height: 40px;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+  .header .header-sub-component .header-sub-component-top-content .header-sub-component-information .header-sub-component-number p {
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .header .header-sub-component .header-sub-component-top-content .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #66C05D;
+    font-weight: 700;
+  }
+  .header .header-sub-component .header-sub-component-top-content .logo span {
+    margin-left: 15px;
+  }
+  .header .header-sub-component .header-sub-component-footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  .header .header-sub-component .header-sub-component-footer-content .header-sub-component-footer-menu {
+    display: flex;
+    list-style-type: none;
+  }
+  .header .header-sub-component .header-sub-component-footer-content .header-sub-component-footer-menu li {
+    margin-left: 20px;
+  }
+  .header .header-sub-component .header-sub-component-footer-content .header-sub-component-footer-menu li a {
+    text-decoration: none;
+    color: black;
+  }
+  .header .header-sub-component .header-sub-component-footer-content .header-sub-component-footer-menu li a:hover {
+    text-decoration: underline;
+  }
+  .main {
+    background-color: #E5E5E5;
+    width: 100%;
+  }
+  .main-carousel-component {
+    width: 100%;
+    height: 604px;
+    background-image: url("./assets/bg_landing.png");
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-position: 40%;
+  }
+  .main-carousel-component p {
+    color: white;
+  }
+  .main-carousel-component .main-carousel-component-content {
+    width: 300px;
+    margin-left: 405px;
+  }
+  .main-carousel-component .main-carousel-component-content p {
+    margin-top: 50px;
+  }
+  .main-carousel-component .main-carousel-component-content .main-carousel-button {
+    margin-top: 62px;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    width: 170px;
+    height: 40px;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+  .main-carousel-component .main-carousel-component-content .main-carousel-landing-text {
+    font-size: 48px;
+    font-weight: 700;
+  }
+  .main-carousel-component .main-carousel-component-content .main-carousel-text {
+    font-size: 20px;
+  }
+  .main-cards-component {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-cards-component .main-cards-content .main-header-card {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .main-cards-component .main-cards-content .menu-cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-cards-component .main-cards-content .card {
+    margin-top: 40px;
+    width: 355px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    background-color: white;
+    margin-left: 20px;
+  }
+  .main-cards-component .main-cards-content .card .image-card {
+    margin-top: 20px;
+  }
+  .main-cards-component .main-cards-content .card .card-description {
+    width: 190px;
+  }
+  .main-cards-component .main-cards-content .card .card-price {
+    margin-top: 20px;
+    font-size: 31px;
+    font-weight: 500;
+  }
+  .main-cards-component .main-cards-content .card .card-order {
+    margin-top: 20px;
+    background: white;
+    width: 200px;
+    height: 35px;
+    border: none;
+    background: #66C05D;
+    border-radius: 30px;
+  }
+  .main-contact {
+    margin-top: 40px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+  .main-contact .main-contact-gmail {
+    width: 530px;
+    height: 212px;
+    background-color: #66C05D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  .main-contact .main-contact-gmail .main-contact-gmail-image {
+    margin-left: 100px;
+  }
+  .main-contact .main-contact-gmail .main-contact-gmail-content {
+    width: 250px;
+  }
+  .main-contact .main-contact-gmail .main-contact-gmail-content .gmail-header p {
+    font-weight: 700;
+    font-size: 18px;
+  }
+  .main-contact .main-contact-gmail .main-contact-gmail-content .gmail-description {
+    width: 230px;
+    font-size: 14px;
+    margin-top: 25px;
+  }
+  .main-contact .main-contact-gmail .main-contact-gmail-content .gmail-input {
+    margin-top: 35px;
+  }
+  .main-contact .main-contact-gmail .main-contact-gmail-content .gmail-input input {
+    outline: none;
+    border: none;
+    width: 225px;
+    height: 35px;
+    background: white;
+    border-radius: 30px;
+  }
+  .main-contact .main-contact-gmail .main-contact-gmail-content .gmail-input input::-moz-placeholder {
+    padding-left: 10px;
+  }
+  .main-contact .main-contact-gmail .main-contact-gmail-content .gmail-input input:-ms-input-placeholder {
+    padding-left: 10px;
+  }
+  .main-contact .main-contact-gmail .main-contact-gmail-content .gmail-input input::placeholder {
+    padding-left: 10px;
+  }
+  .main-contact .main-contact-map {
+    width: 530px;
+    height: 212px;
+    background-color: #66C05D;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  .main-contact .main-contact-map .main-contact-map-content {
+    margin-left: 40px;
+    width: 170px;
+  }
+  .main-contact .main-contact-map .main-contact-map-content .map-header {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .main-contact .main-contact-map .main-contact-map-content .map-description {
+    margin-top: 25px;
+  }
+  .main-contact .main-contact-map .main-contact-map-content .map-button {
+    margin-top: 25px;
+  }
+  .main-contact .main-contact-map .main-contact-map-content .map-button button {
+    width: 170px;
+    height: 35px;
+    background: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 35px;
+    cursor: pointer;
+  }
+  .footer {
+    height: 184px;
+    width: 100%;
+  }
+  .footer .footer-top-component {
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer .footer-top-component .footer-icons {
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .footer .footer-top-component .footer-icons .eclipse {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer .footer-top-component .footer-icons .eclipse1 {
+    background: url("./assets/Ellipse1.svg");
+  }
+  .footer .footer-top-component .footer-icons .eclipse2 {
+    background: url("./assets/Ellipse2.svg");
+    margin-left: 28px;
+  }
+  .footer .footer-top-component .footer-icons .eclipse3 {
+    background: url("./assets/Ellipse3.svg");
+    margin-left: 28px;
+  }
+  .footer .footer-top-component .footer-icons .eclipse4 {
+    background: url("./assets/icon4.svg");
+    margin-left: 28px;
+  }
+  .footer .footer-top-component .footer-addres {
+    margin-left: 120px;
+  }
+  .footer .footer-top-component .footer-contact {
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+  }
+  .footer .footer-top-component .footer-contact button {
+    margin-left: 50px;
+    width: 117px;
+    height: 40px;
+    border: 2px solid #66C05D;
+    color: #66C05D;
+    background: none;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+  .footer .footer-low-component {
+    height: 64px;
+    background-color: #E5E5E5;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    color: #828282;
+  }
+  .footer .footer-low-component .footer-copyright {
+    margin-left: 345px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .header {
+    height: 200px;
+    width: 100%;
+  }
+  .header .header-top-component .header-top-component-navbar {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    justify-content: flex-start;
+    background-color: #E5E5E5;
+  }
+  .header .header-top-component .header-top-component-navbar .header-top-component-nav-content {
+    font-size: 16px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+  .header .header-top-component .header-top-component-navbar .header-top-component-nav-content .header-top-component-content {
+    flex: 1;
+  }
+  .header .header-top-component .header-top-component-navbar .header-top-component-nav-content .header-top-component-content a {
+    text-decoration: none;
+    color: #333333;
+  }
+  .header .header-top-component .header-top-component-navbar .header-top-component-nav-content .header-top-component-content a:hover {
+    text-decoration: underline;
+  }
+  .header .header-sub-component {
+    display: flex;
+    flex-direction: column;
+    height: 149px;
+  }
+  .header .header-sub-component .header-sub-component-top-content {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    padding-top: 5px;
+  }
+  .header .header-sub-component .header-sub-component-top-content .header-sub-component-information {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+  }
+  .header .header-sub-component .header-sub-component-top-content .header-sub-component-information .header-sub-component-button {
+    margin-left: 10px;
+    background: white;
+    border: 3px solid #66C05D;
+    width: 170px;
+    height: 40px;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+  .header .header-sub-component .header-sub-component-top-content .header-sub-component-information .header-sub-component-number p {
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .header .header-sub-component .header-sub-component-top-content .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #66C05D;
+    font-weight: 700;
+  }
+  .header .header-sub-component .header-sub-component-top-content .logo span {
+    margin-left: 15px;
+  }
+  .header .header-sub-component .header-sub-component-footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  .header .header-sub-component .header-sub-component-footer-content .header-sub-component-footer-menu {
+    display: flex;
+    list-style-type: none;
+  }
+  .header .header-sub-component .header-sub-component-footer-content .header-sub-component-footer-menu li {
+    margin-left: 20px;
+  }
+  .header .header-sub-component .header-sub-component-footer-content .header-sub-component-footer-menu li a {
+    text-decoration: none;
+    color: black;
+  }
+  .header .header-sub-component .header-sub-component-footer-content .header-sub-component-footer-menu li a:hover {
+    text-decoration: underline;
+  }
+  .main {
+    background-color: #E5E5E5;
+    width: 100%;
+  }
+  .main-carousel-component {
+    width: 100%;
+    height: 604px;
+    background-image: url("./assets/bg_landing.png");
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-position: 80%;
+  }
+  .main-carousel-component p {
+    color: white;
+  }
+  .main-carousel-component .main-carousel-component-content {
+    width: 300px;
+    margin-left: 405px;
+  }
+  .main-carousel-component .main-carousel-component-content p {
+    margin-top: 50px;
+  }
+  .main-carousel-component .main-carousel-component-content .main-carousel-button {
+    margin-top: 62px;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    width: 170px;
+    height: 40px;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+  .main-carousel-component .main-carousel-component-content .main-carousel-landing-text {
+    font-size: 48px;
+    font-weight: 700;
+  }
+  .main-carousel-component .main-carousel-component-content .main-carousel-text {
+    font-size: 20px;
+  }
+  .main-cards-component {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-cards-component .main-cards-content .main-header-card {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .main-cards-component .main-cards-content .menu-cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-cards-component .main-cards-content .card {
+    margin-top: 40px;
+    width: 355px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    background-color: white;
+    margin-left: 20px;
+  }
+  .main-cards-component .main-cards-content .card .image-card {
+    margin-top: 20px;
+  }
+  .main-cards-component .main-cards-content .card .card-description {
+    width: 190px;
+  }
+  .main-cards-component .main-cards-content .card .card-price {
+    margin-top: 20px;
+    font-size: 31px;
+    font-weight: 500;
+  }
+  .main-cards-component .main-cards-content .card .card-order {
+    margin-top: 20px;
+    background: white;
+    width: 200px;
+    height: 35px;
+    border: none;
+    background: #66C05D;
+    border-radius: 30px;
+  }
+  .main-contact {
+    margin-top: 40px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+  .main-contact .main-contact-gmail {
+    width: 530px;
+    height: 212px;
+    background-color: #66C05D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  .main-contact .main-contact-gmail .main-contact-gmail-image {
+    margin-left: 100px;
+  }
+  .main-contact .main-contact-gmail .main-contact-gmail-content {
+    width: 250px;
+  }
+  .main-contact .main-contact-gmail .main-contact-gmail-content .gmail-header p {
+    font-weight: 700;
+    font-size: 18px;
+  }
+  .main-contact .main-contact-gmail .main-contact-gmail-content .gmail-description {
+    width: 230px;
+    font-size: 14px;
+    margin-top: 25px;
+  }
+  .main-contact .main-contact-gmail .main-contact-gmail-content .gmail-input {
+    margin-top: 35px;
+  }
+  .main-contact .main-contact-gmail .main-contact-gmail-content .gmail-input input {
+    outline: none;
+    border: none;
+    width: 225px;
+    height: 35px;
+    background: white;
+    border-radius: 30px;
+  }
+  .main-contact .main-contact-gmail .main-contact-gmail-content .gmail-input input::-moz-placeholder {
+    padding-left: 10px;
+  }
+  .main-contact .main-contact-gmail .main-contact-gmail-content .gmail-input input:-ms-input-placeholder {
+    padding-left: 10px;
+  }
+  .main-contact .main-contact-gmail .main-contact-gmail-content .gmail-input input::placeholder {
+    padding-left: 10px;
+  }
+  .main-contact .main-contact-map {
+    width: 530px;
+    height: 212px;
+    background-color: #66C05D;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  .main-contact .main-contact-map .main-contact-map-content {
+    margin-left: 40px;
+    width: 170px;
+  }
+  .main-contact .main-contact-map .main-contact-map-content .map-header {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .main-contact .main-contact-map .main-contact-map-content .map-description {
+    margin-top: 25px;
+  }
+  .main-contact .main-contact-map .main-contact-map-content .map-button {
+    margin-top: 25px;
+  }
+  .main-contact .main-contact-map .main-contact-map-content .map-button button {
+    width: 170px;
+    height: 35px;
+    background: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 35px;
+    cursor: pointer;
+  }
+  .footer {
+    height: 184px;
+    width: 100%;
+  }
+  .footer .footer-top-component {
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer .footer-top-component .footer-icons {
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .footer .footer-top-component .footer-icons .eclipse {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer .footer-top-component .footer-icons .eclipse1 {
+    background: url("./assets/Ellipse1.svg");
+  }
+  .footer .footer-top-component .footer-icons .eclipse2 {
+    background: url("./assets/Ellipse2.svg");
+    margin-left: 28px;
+  }
+  .footer .footer-top-component .footer-icons .eclipse3 {
+    background: url("./assets/Ellipse3.svg");
+    margin-left: 28px;
+  }
+  .footer .footer-top-component .footer-icons .eclipse4 {
+    background: url("./assets/icon4.svg");
+    margin-left: 28px;
+  }
+  .footer .footer-top-component .footer-addres {
+    margin-left: 20px;
+    font-size: 12px;
+  }
+  .footer .footer-top-component .footer-contact {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+  }
+  .footer .footer-top-component .footer-contact button {
+    margin-left: 20px;
+    width: 100px;
+    height: 35px;
+    border: 2px solid #66C05D;
+    color: #66C05D;
+    background: none;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+  .footer .footer-low-component {
+    height: 64px;
+    background-color: #E5E5E5;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    color: #828282;
+  }
+  .footer .footer-low-component .footer-copyright {
+    margin-left: 205px;
+  }
+}
+@media screen and (max-width: 455px) {
+  .menuicon {
+    display: block;
+    left: 0%;
+    top: 0%;
+    position: fixed;
+  }
+  .fullPageMenu {
+    display: block;
+  }
+  .header {
+    display: none;
+  }
+  .main {
+    background-color: #E5E5E5;
+    width: 100%;
+  }
+  .main-carousel-component {
+    width: 100%;
+    height: 604px;
+    background-image: url("./assets/bg_landing.png");
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-position: 60%;
+  }
+  .main-carousel-component p {
+    color: white;
+  }
+  .main-carousel-component .main-carousel-component-content {
+    width: 300px;
+    margin-left: 0;
+  }
+  .main-carousel-component .main-carousel-component-content p {
+    margin-top: 50px;
+  }
+  .main-carousel-component .main-carousel-component-content .main-carousel-button {
+    margin-top: 62px;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    width: 170px;
+    height: 40px;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+  .main-carousel-component .main-carousel-component-content .main-carousel-landing-text {
+    font-size: 48px;
+    font-weight: 700;
+  }
+  .main-carousel-component .main-carousel-component-content .main-carousel-text {
+    font-size: 20px;
+  }
+  .main-cards-component {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-cards-component .main-cards-content .main-header-card {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .main-cards-component .main-cards-content .menu-cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-cards-component .main-cards-content .card {
+    margin-top: 40px;
+    width: 355px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    background-color: white;
+    margin-left: 20px;
+  }
+  .main-cards-component .main-cards-content .card .image-card {
+    margin-top: 20px;
+  }
+  .main-cards-component .main-cards-content .card .card-description {
+    width: 190px;
+  }
+  .main-cards-component .main-cards-content .card .card-price {
+    margin-top: 20px;
+    font-size: 31px;
+    font-weight: 500;
+  }
+  .main-cards-component .main-cards-content .card .card-order {
+    margin-top: 20px;
+    background: white;
+    width: 200px;
+    height: 35px;
+    border: none;
+    background: #66C05D;
+    border-radius: 30px;
+  }
+  .main-contact {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+  .main-contact .main-contact-gmail {
+    width: 90%;
+    height: 212px;
+    background-color: #66C05D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  .main-contact .main-contact-gmail .main-contact-gmail-image {
+    margin-left: 0px;
+  }
+  .main-contact .main-contact-gmail img {
+    width: 100px;
+  }
+  .main-contact .main-contact-gmail .main-contact-gmail-content {
+    width: 100%;
+  }
+  .main-contact .main-contact-gmail .main-contact-gmail-content .gmail-header p {
+    font-weight: 700;
+    font-size: 16px;
+  }
+  .main-contact .main-contact-gmail .main-contact-gmail-content .gmail-description {
+    width: 230px;
+    font-size: 14px;
+    margin-top: 25px;
+  }
+  .main-contact .main-contact-gmail .main-contact-gmail-content .gmail-input {
+    margin-top: 35px;
+  }
+  .main-contact .main-contact-gmail .main-contact-gmail-content .gmail-input input {
+    outline: none;
+    border: none;
+    width: 225px;
+    height: 35px;
+    background: white;
+    border-radius: 30px;
+  }
+  .main-contact .main-contact-gmail .main-contact-gmail-content .gmail-input input::-moz-placeholder {
+    padding-left: 10px;
+  }
+  .main-contact .main-contact-gmail .main-contact-gmail-content .gmail-input input:-ms-input-placeholder {
+    padding-left: 10px;
+  }
+  .main-contact .main-contact-gmail .main-contact-gmail-content .gmail-input input::placeholder {
+    padding-left: 10px;
+  }
+  .main-contact .main-contact-map {
+    width: 90%;
+    height: 212px;
+    background-color: #66C05D;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-top: 20px;
+  }
+  .main-contact .main-contact-map .main-contact-map-content {
+    width: 170px;
+  }
+  .main-contact .main-contact-map .main-contact-map-content .map-header {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .main-contact .main-contact-map .main-contact-map-content .map-description {
+    margin-top: 25px;
+  }
+  .main-contact .main-contact-map .main-contact-map-content .map-button {
+    margin-top: 25px;
+  }
+  .main-contact .main-contact-map .main-contact-map-content .map-button button {
+    width: 170px;
+    height: 35px;
+    background: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 35px;
+    cursor: pointer;
+  }
+  .footer {
+    height: 184px;
+    width: 100%;
+  }
+  .footer .footer-top-component {
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer .footer-top-component .footer-icons {
+    display: none;
+  }
+  .footer .footer-top-component .footer-addres {
+    margin-left: 0px;
+    font-size: 12px;
+  }
+  .footer .footer-top-component .footer-contact {
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+  }
+  .footer .footer-top-component .footer-contact button {
+    margin-left: 10px;
+    width: 100px;
+    height: 35px;
+    border: 2px solid #66C05D;
+    color: #66C05D;
+    background: none;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+  .footer .footer-low-component {
+    height: 64px;
+    background-color: #E5E5E5;
+    display: flex;
+    font-size: 9px;
+    align-items: center;
+    justify-content: center;
+    color: #828282;
+  }
+  .footer .footer-low-component .footer-copyright {
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .main {
+    width: 100%;
+  }
+  .main-cards-content .card {
+    width: 200px;
+  }
+  .main-contact {
+    width: 100%;
+    margin-left: 0;
+  }
+  .main-contact .main-contact-gmail {
+    font-size: 14px;
+    width: 90%;
+  }
+  .main-contact .main-contact-gmail img {
+    width: 50px;
+  }
+  .main-contact .main-contact-gmail .main-contact-gmail-content .gmail-header {
+    font-size: 14px;
+  }
+  .main-contact-map {
+    width: 100%;
+  }
+  .footer {
+    width: 100%;
+  }
+  .footer .footer-contact button {
+    margin-left: 0;
+  }
+}/*# sourceMappingURL=style.css.map */
